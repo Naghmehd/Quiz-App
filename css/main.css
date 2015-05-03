@@ -1,0 +1,130 @@
+body {
+	background-image:url("../images/teaCup.jpg");
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-size: auto 900px;
+	margin-top: 10px;
+	font-family: Arial, Sans-serif, Helvetica;
+	width: 1300px;
+	color: #FFFFFF;
+}
+h1 {
+	font-family: Arial, Sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color: #fff;
+}
+#topQuestion {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -25px;
+	padding-left: 15px;
+	border-radius: 10px;
+	width: 450px;
+	height: 70px;
+	background-color: #445155;
+}
+
+#topQuestion h1{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	padding-top: 25px;
+	position: relative;
+	display: none;
+	
+}
+#answerWrapper {
+	width: 400px;
+	height: 400px;
+	margin: 0px auto;
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 25px;
+	padding-top: 113px;
+}
+#answerHolder {
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 20px;
+	line-height: 35px;
+	width: 144px;
+	height: 140px;
+}
+#submit {
+	font-size: 18px;
+	margin-top: 20px;
+	border-radius: 5px;
+	margin-left: 50%;
+	margin-right: 50%;
+}
+#progress {
+	position: relative;
+	float: right;
+	right: 0px;
+	border-radius: 5px;
+	float: right;
+	top: -450xspx; 
+	width: 130px;
+	height: 525px;
+}
+.wrongAnswer {
+	background-color: #CC0033;
+}
+.rightAnswer {
+	background-color: #028f76;
+}
+.progressBag {
+	display: block;
+	width: 60px;
+	height: 60px;
+	background-color: #445155;
+	border-radius: 30px;
+	color: #fff;
+	text-align: center;
+	opacity: 1;
+	position: relative;
+}
+.progressBag img {
+	width: 30px;
+	position: relative;
+	padding: 10px;
+}
+img {
+	border: 0px none;
+	width: 50px;
+	height: 64;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

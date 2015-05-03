@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+    <!--<script src="./jquery-1.10.2.js"></script> -->
+    <link href="normalize.css" rel="stylesheet"></link>
+    <link href="css/main.css" rel="stylesheet" ></link>
+    <title>Tea Quiz</title>
+</header>
+<body>
+    	<h1>Tea Quiz</h1>
+
+        <div id="topQuestion" style="opacity: 1;">
+            <h1 id="firstQuestion" style="display: block;">
+                Question #1: Which country did Tea originate?
+            </h1>
+            <h1 id="secondQuestion">
+                Who brought Tea to the West?
+            </h1>
+            <h1 id="thirdQuestion">
+                which country consumes the most Tea?
+            </h1>
+            <h1 id="fouthQuestion">
+                Where did Chai Tea originate?
+            </h1>
+            <h1 id="fifthQuestion">
+                Ice Tea is native to which part of the US?
+            </h1>
+            <br></br>
+        </div>
+        <div id="answerWrapper">
+            <div id="answerHolder">
+                <!--<img id="teaCup" src="images/teaCup.jpg"></img>-->
+                <br></br>
+                <input class="option" type="radio" value="0" name="option">England</input>
+                <span class="answer"></span>
+                <br></br>
+                <input class="option" type="radio" value="1" name="option">China</input>
+                <span class="answer"></span>
+                <br></br>
+                <input class="option" type="radio" value="2" name="option">India</input>
+                <span class="answer"></span>
+                <br></br>
+                <input class="option" type="radio" value="3" name="option">Japan</input>
+                <span class="answer"></span>
+                <br></br>
+            </div>
+        
+            <div id="buttonHolder">
+                <input id="submit" type="button" value="Submit Answer"></input>
+                <span id="hint"></span>
+                <!--<input id="retryButton" type="button" value="Try Again!"></input>-->
+            </div>
+        </div>
+        <div id="progress" style="display: block;">
+            <div id="progressTea1" class="progressBag rightAnswer wrongAnswer">
+                <img src="./images/whiteQ1.png"></img>
+             </div>   
+            <div id="progressTea2" class="progressBag rightAnswer wrongAnswer">
+                <img src="./images/whiteQ2.png"><img>
+            </div>
+            <div id="progressTea3" class="progressBag currentQuestion">
+                <img src="./images/whiteQ3.png"></img>
+            </div>
+            <div id="progressTea4" class="progressBag unAnswered">
+                <img src="./images/whiteQ4.png"></img>
+            </div>
+            <div id="progressTea5" class="progressBag unAnswered">
+                <img src="./images/whiteQ5.png"></img>
+            </div>
+        </div>
+            	
+</body>
+
+</html>
